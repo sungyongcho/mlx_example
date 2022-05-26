@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 // #include "../mlx_opengl/mlx.h"
-#include "../mlx_mms_20210621/mlx.h"
-// #include "../mlx_linux/mlx.h"
+// #include "../mlx_mms_20210621/mlx.h"
+#include "../mlx_linux/mlx.h"
 
 #define X_EVENT_KEY_PRESS		2
 #define X_EVENT_KEY_release		3

@@ -1,8 +1,8 @@
 //Character '북' on the screen means 'North' in Korean.
 #include <stdio.h>
 // #include "../mlx_opengl/mlx.h"
-#include "../mlx_mms_20210621/mlx.h"
-// #include "../mlx_linux/mlx.h"
+// #include "../mlx_mms_20210621/mlx.h"
+#include "../mlx_linux/mlx.h"
 
 int main()
 {

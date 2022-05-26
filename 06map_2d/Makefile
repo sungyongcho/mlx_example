@@ -9,7 +9,7 @@ mms:
 
 
 linux:
-	clang -L../mlx -lmlx -framework OpenGL -framework AppKit main.c
+	gcc main.c -L../mlx_linux -lmlx -lXext -lX11
 	./a.out
 
 clean:
