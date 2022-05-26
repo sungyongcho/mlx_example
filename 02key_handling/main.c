@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "../mlx/mlx.h"
+// #include "../mlx_opengl/mlx.h"
+#include "../mlx_mms_20210621/mlx.h"
+// #include "../mlx_linux/mlx.h"
 
 #define X_EVENT_KEY_PRESS		2
 #define X_EVENT_KEY_release		3
@@ -25,7 +27,7 @@ typedef struct s_param{
 	char	str[3];
 }				t_param;
 
-//Only param->x will be used. 
+//Only param->x will be used.
 void			param_init(t_param *param)
 {
 	param->x = 3;

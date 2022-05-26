@@ -1,4 +1,6 @@
-#include "../mlx/mlx.h"
+// #include "../mlx_opengl/mlx.h"
+#include "../mlx_mms_20210621/mlx.h"
+// #include "../mlx_linux/mlx.h"
 
 int		main(void)
 {

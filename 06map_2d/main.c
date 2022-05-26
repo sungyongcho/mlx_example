@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "../mlx/mlx.h"
+// #include "../mlx_opengl/mlx.h"
+#include "../mlx_mms_20210621/mlx.h"
+// #include "../mlx_linux/mlx.h"
 
 #define X_EVENT_KEY_PRESS		2
 #define X_EVENT_KEY_EXIT		17 //Exit program key code
@@ -129,7 +131,7 @@ int 	close(t_game *game)
 }
 
 void	game_init(t_game *game)
-{	
+{
 	int map[ROWS][COLS] = {
 	{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	{1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1},
